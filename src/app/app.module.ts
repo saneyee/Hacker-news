@@ -9,6 +9,7 @@ import { routing } from './app.routing';
 import { NewComponent } from './new/new.component';
 import { CommentsComponent } from './comments/comments.component';
 import { ShowComponent } from './show/show.component';
+import { CommentDetailComponent } from './comment-detail/comment-detail.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ShowComponent } from './show/show.component';
     HackerComponent,
     NewComponent,
     CommentsComponent,
-    ShowComponent  
+    ShowComponent,
+    CommentDetailComponent  
   ],
   imports: [
     BrowserModule,
