@@ -4,15 +4,26 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HackerComponent } from './hacker/hacker.component';
+import { routing } from './app.routing';
+import { NewComponent } from './new/new.component';
+import { CommentsComponent } from './comments/comments.component';
+import { ShowComponent } from './show/show.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HackerComponent,
+    NewComponent,
+    CommentsComponent,
+    ShowComponent  
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
